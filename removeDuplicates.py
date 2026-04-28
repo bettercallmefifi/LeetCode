@@ -1,4 +1,5 @@
-def removeDuplicates(self, nums: List[int]) -> int:
+from typing import List
+def removeDuplicates(nums: List[int]) -> int:
     i = len(nums) - 1
     while i > 0:
         if nums[i] == nums[i - 1]:
