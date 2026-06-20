@@ -1,4 +1,6 @@
 from typing import List
+
+
 def removeDuplicates(nums: List[int]) -> int:
     i = len(nums) - 1
     while i > 0:
