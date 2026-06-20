@@ -5,5 +5,3 @@ def lengthOfLastWord(s: str) -> int:
         if i != '':
             thislist.append(i)
     return len(thislist[len(thislist) - 1])
-
-print(lengthOfLastWord("luffy is still joyboy"))
